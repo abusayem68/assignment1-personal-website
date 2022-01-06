@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container-fluid{
+    width: 100%;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+#profile-pic {
+    background-image: url(images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: top center;
+    margin-top: 60px;
+}
+.half-width img{
+    width: 80%;
+    height: auto;
+    padding-left: 30px;
+}
+.flexible-area{
+    display: flex;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.half-width{
+    width: 50%;
+}
+h1{
+    color: #333333;
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    margin: 0;
+    line-height: 70px;
+}
+span{
+    color: #FFAD5A;
+}
+#heading-text {
+    padding-left: 10px;
+    margin-top: 80px;
+    border-left: 4px solid;
+    border-image: linear-gradient(rgb(255, 89, 89), rgb(255, 89, 89)) 1 / 1 / 0 stretch;
+}
+.half-width p {
+    font-size: 16px;
+    line-height: 1.7em;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+.link-button {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+/**My Mission Area**/
+#my-mission-area{
+    padding-top: 0;
+}
+h2{
+    color: #13103A;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+.my-mission-area-item h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.my-mission-area-item{
+    padding: 30px;
+    border-radius: 20px;
+}
+#mission{
+    background-color: #EDF5F6;
+}
+#vission{
+    background-color: #FFEEEE;
+}
+#goal{
+    background-color: #FFF4D6;
+}
+.my-mission-area-item img{
+    width:40%;    
+}
+.gap{
+    gap:20px;
+}
+
+/**develop area**/
+#develop-area {
+    margin: 0 auto;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: 50px;
+}
+h4{
+    font-size: 36px;
+    margin: 0;
+}
+.item img{
+    width: 80%;
+}
+.item p{
+    margin-bottom: 30px;
+}
+/**Community Area**/
+#community{
+    margin: 0 auto;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: right bottom;
+}
+#community .item img {
+    width: 80%;
+    padding-left: 70px;
+}
+
+/**Skills Area**/
+#my-skills{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.skill-item {
+    padding-left: 140px;
+    margin: 30px auto;
+    width: 100%;
+}
+.skill-icon{
+    width: 20%;
+}
+.skills-progress-bar{
+    width: 80%;
+}
+.skill-icon img{
+    width: 100px;
+    height: auto;
+}
+.skills-progress-bar h5 {
+    text-align: left;
+    font-size: 35px;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.progress-bar {
+    width: 50%;
+    height: 10px;
+    background-color: #070101b7;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.progress-bar .progress{
+    height: 10px;
+    background-color: #FF5722;
+    border-radius: 5px;
+}
+#html-skill .progress-bar .progress{
+    width:80%;
+    background-color: #FF5722;
+}
+#css-skill .progress-bar .progress{
+    width:50%;
+    background-color: #169FDB;
+}
+#js-skill .progress-bar .progress{
+    width:20%;
+    background-color: #E6C72F;
+}
+/**Footer Area**/
+#footer-area{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 20px;
+}
+#footer-area p{
+    margin:0;
+    padding: 0;
+}
+#footer-area h2{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    margin: 0;
+}
+#footer-area h2 span{
+    color: #FF5959;
+}
+
+#footer-area p{
+    color: #D9DBE1;
+    font-size: 12px;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 10px;
+}
